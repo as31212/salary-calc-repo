@@ -1,0 +1,43 @@
+:root{
+    --background1:#2F3134;
+    --box:#303841;
+    --Btn:#45567D;
+    --Hover:#B93044;
+    --text1:white;
+    --text2: black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background1);
+    color: var(--text1);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+#box{
+    padding: 2rem;
+    width: 80%;
+    background-color: var(--box);
+    margin: 2rem auto;
+    border-radius: 15px;
+}
+#input-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom:2rem ;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
